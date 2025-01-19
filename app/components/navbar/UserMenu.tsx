@@ -31,7 +31,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
          return loginModal.onOpen();
       }
 
-      // Open rent Modal
+  
 
       rentModal.onOpen();
    }, [currentUser, loginModal, rentModal]);
